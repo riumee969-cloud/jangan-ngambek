@@ -1,0 +1,167 @@
+  <!DOCTYPE html>
+  <html lang="id">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffe8f1">
+  <title>For Sayanggg ♡</title>
+  <style>
+  :root{--pink:#ff79aa;--hot:#e94f8b;--pale:#fff0f6;--ink:#713b55;--cream:#fffafd}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;padding:22px 14px 35px;display:flex;justify-content:center;align-items:center;font-family:"Trebuchet MS",system-ui,sans-serif;color:var(--ink);background:radial-gradient(circle at 8% 12%,#ffd7e7 0,transparent 27%),radial-gradient(circle at 92% 80%,#ffe9d2 0,transparent 25%),linear-gradient(145deg,#fff8fb,#ffeaf3 60%,#fff5f7);overflow-x:hidden}
+  .floaty{position:fixed;pointer-events:none;opacity:.65;animation:bob 5s ease-in-out infinite;z-index:0}.f1{left:5%;top:8%;font-size:30px}.f2{right:7%;top:14%;font-size:25px;animation-delay:1s}.f3{left:8%;bottom:13%;font-size:25px;animation-delay:2s}.f4{right:5%;bottom:9%;font-size:31px;animation-delay:.5s}
+  @keyframes bob{50%{transform:translateY(-15px) rotate(10deg)}}
+  .card{position:relative;z-index:1;width:min(100%,560px);padding:clamp(18px,5vw,32px);border:2px solid white;border-radius:30px;background:#ffffffdf;box-shadow:0 20px 65px #d95f9026;text-align:center}
+  .sticker{display:inline-block;background:#ffe1ed;color:#d94d86;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:900;letter-spacing:1.1px}
+  h1{font-size:clamp(30px,7vw,43px);line-height:1.12;margin:15px 0 8px;color:#e6538d}
+  .subtitle{font-size:15px;line-height:1.65;max-width:410px;margin:0 auto}
+  .photo-frame{width:min(55vw,205px);height:min(55vw,205px);min-width:155px;min-height:155px;margin:24px auto 13px;position:relative}
+  .photo-frame:before{content:"";position:absolute;inset:-9px;border:3px dashed #ff94ba;border-radius:50%;animation:spin 25s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  #photoPreview{height:100%;width:100%;object-fit:cover;border-radius:50%;border:6px solid white;background:#ffe8f1;box-shadow:0 8px 22px #e78bb64d}
+  .upload{display:inline-flex;align-items:center;gap:7px;padding:11px 15px;margin:7px 0 14px;border-radius:14px;background:#fff0f6;border:1px solid #ffc6dc;color:#c9477c;font-weight:800;font-size:13px;cursor:pointer}
+  input[type=file]{display:none}
+  .name{width:100%;padding:12px;border:1px solid #ffd1e1;border-radius:13px;background:#fffafd;text-align:center;color:var(--ink);font:inherit;outline-color:#ff8db7;margin-bottom:14px}
+  .letter{position:relative;text-align:left;padding:18px;border:1px solid #ffe0eb;border-radius:20px;background:linear-gradient(135deg,#fff7fb,#fff0f6);font-size:14px;line-height:1.8}
+  .letter strong{color:#d94d86}
+  .letter .sign{text-align:right;color:#d94d86;font-weight:900;margin-top:12px}
+  .mini-title{font-size:12px;font-weight:900;letter-spacing:1px;color:#ce7095;margin:22px 0 9px}
+  .reasons{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .reason{padding:11px 5px;border-radius:15px;background:#fff5f9;border:1px solid #ffe1ec;font-size:12px;font-weight:800}
+  .reason span{display:block;font-size:23px;margin-bottom:4px}
+  .actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+  button{border:0;border-radius:15px;padding:13px 16px;font:inherit;font-size:14px;font-weight:900;cursor:pointer;transition:transform .15s,box-shadow .15s}
+  button:active{transform:scale(.96)}
+  .primary{color:white;background:linear-gradient(135deg,#ff8cb6,#ed5591);box-shadow:0 7px 16px #ef8db6}
+  .secondary{color:#c64b7d;background:white;border:1px solid #ffc9dc}
+  #reply{min-height:42px;margin:16px 0 0;color:#d94d86;font-size:15px;font-weight:900;line-height:1.5}
+  #stillMadBtn{position:relative;touch-action:manipulation;z-index:2}
+  .footer{margin-top:12px;font-size:11px;color:#b67a94}
+  .heart{position:fixed;bottom:-40px;z-index:5;pointer-events:none;animation:up 3.4s ease-out forwards}
+  @keyframes up{to{transform:translateY(-115vh) rotate(30deg);opacity:0}}
+  .modal{position:fixed;inset:0;background:#54233b66;z-index:10;display:none;align-items:center;justify-content:center;padding:20px}
+  .modal.show{display:flex}
+  .modal-box{background:#fff8fb;border:3px solid white;border-radius:25px;padding:25px;width:min(100%,360px);text-align:center;box-shadow:0 20px 50px #6d214833}
+  .modal-box .big{font-size:55px}
+  .modal-box h2{color:#df4f8a;margin:8px 0}
+  .modal-box p{line-height:1.6;font-size:14px}
+  @media(max-width:360px){.reasons{grid-template-columns:1fr}.reason{display:flex;align-items:center;justify-content:center;gap:8px}.reason span{margin:0}.actions button{width:100%}}
+  </style>
+  </head>
+  <body>
+  <span class="floaty f1">💗</span><span class="floaty f2">🌷</span><span class="floaty f3">🧸</span><span class="floaty f4">💌</span>
+  <main class="card">
+    <div class="sticker">♡ A LITTLE LOVE NOTE ♡</div>
+    <h1>Hai, Sayanggg! 🥺💗</h1>
+    <p class="subtitle">Ada seseorang yang pengin bikin kamu senyum lagi… katanya dia kangen kamu yang biasanya cerewet lucu itu 🐰🌷</p>
+
+    <div class="photo-frame">
+      <img id="photoPreview" alt="Foto Sayanggg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect width='200' height='200' rx='100' fill='%23ffe5ef'/%3E%3Ctext x='100' y='112' font-size='76' text-anchor='middle'%3E%F0%9F%90%B0%3C/text%3E%3C/svg%3E">
+    </div>
+    <label for="photoUpload" class="upload">📸 Pasang foto gemes kamu</label>
+    <input id="photoUpload" type="file" accept="image/*">
+    <input id="nickname" class="name" maxlength="35" value="Sayanggg" aria-label="Nama panggilan">
+
+    <section class="letter">
+      <strong>Buat Sayanggg yang paling gemes di dunia 💌</strong><br><br>
+      Aku tahu aku bikin kamu kesel, dan aku nggak mau pura-pura semuanya baik-baik aja. Maaf yaa kalau sikap atau omonganku bikin hati kamu nggak enak. 🥺
+      <br><br>
+      Aku mungkin belum selalu peka, tapi aku pengin belajar ngerti kamu lebih baik. Perasaan kamu penting buat aku. Kalau kamu masih butuh waktu buat ngambek, nggak apa-apa kok. Aku siap dengerin kamu kalau kamu udah mau cerita.
+      <br><br>
+      Aku nggak minta kamu langsung maafin aku sekarang. Aku cuma mau kamu tahu kalau aku sayang kamu, dan aku pengin memperbaiki yang bikin kamu kesel. 🫶
+      <div class="sign">Dari orang yang sayang kamu ♡</div>
+    </section>
+
+    <div class="mini-title">PILIH HADIAH VIRTUAL KAMU 🎀</div>
+    <div class="reasons">
+      <div class="reason"><span>🧸</span>Peluk hangat</div>
+      <div class="reason"><span>🌷</span>Buket bunga</div>
+      <div class="reason"><span>🍓</span>Stroberi manis</div>
+    </div>
+    <div class="actions">
+      <button class="primary" id="hugBtn">Mau peluk dulu 🫂</button>
+      <button class="secondary" id="stillMadBtn">Masih kesel 😤</button>
+      <button class="secondary" id="letterBtn">Buka surat rahasia 💌</button>
+    </div>
+    <div id="reply" aria-live="polite" role="status"></div>
+    <div class="footer">dibuat dengan hati, sedikit panik, dan banyak sayang ♡</div>
+  </main>
+
+  <div class="modal" id="secretModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <div class="big">💌🐻💗</div>
+      <h2 id="modalTitle">Surat rahasia!</h2>
+      <p>Kalau hari ini terasa berat, semoga kamu ingat kalau kamu berharga dan layak disayang dengan baik. Aku pengin jadi orang yang nggak cuma bilang sayang, tapi juga nunjukinnya lewat sikap. Pelan-pelan ya, cantik. 🌷</p>
+      <button class="primary" id="closeModal">Aku baca kok 💗</button>
+    </div>
+  </div>
+  <script>
+  const upload=document.getElementById('photoUpload');
+  const preview=document.getElementById('photoPreview');
+  const reply=document.getElementById('reply');
+  const nickname=document.getElementById('nickname');
+  const modal=document.getElementById('secretModal');
+
+  upload.addEventListener('change',()=>{
+    const file=upload.files&&upload.files[0];
+    if(!file)return;
+    if(!file.type.startsWith('image/')){reply.textContent='Pilih file foto berupa gambar yaa 💗';return;}
+    const reader=new FileReader();
+    reader.onload=event=>{preview.src=event.target.result;reply.textContent='Fotonya udah kepasang! Gemes banget 💞';};
+    reader.readAsDataURL(file);
+  });
+  function name(){return nickname.value.trim()||'Sayanggg';}
+  function hearts(count=18){
+    const symbols=['💗','💕','💖','🌸','🫶','🎀'];
+    for(let i=0;i<count;i++)setTimeout(()=>{
+      const el=document.createElement('span');el.className='heart';
+      el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+      el.style.left=(Math.random()*94)+'vw';
+      el.style.fontSize=(18+Math.random()*22)+'px';
+      document.body.appendChild(el);setTimeout(()=>el.remove(),3600);
+    },i*75);
+  }
+  document.getElementById('hugBtn').addEventListener('click',()=>{
+    reply.textContent='Peluk virtual buat '+name()+'! 🫂💗 Semoga hatinya pelan-pelan adem. Kalau udah siap, aku mau dengerin ceritamu.';
+    hearts(25);
+  });
+  const stillMadBtn=document.getElementById('stillMadBtn');
+  let dodgeCount=0;
+  function dodgeButton(){
+    // Pindahkan tombol ke posisi lain yang tetap terlihat di layar.
+    const rect=stillMadBtn.getBoundingClientRect();
+    const margin=12;
+    const maxX=Math.max(margin,window.innerWidth-rect.width-margin);
+    const maxY=Math.max(margin,window.innerHeight-rect.height-margin);
+    let x=margin+Math.random()*(maxX-margin);
+    let y=margin+Math.random()*(maxY-margin);
+    // Setelah beberapa kali, gunakan posisi fixed agar tombol bisa "kabur" ke seluruh layar.
+    stillMadBtn.style.position='fixed';
+    stillMadBtn.style.left=x+'px';
+    stillMadBtn.style.top=y+'px';
+    stillMadBtn.style.zIndex='20';
+    dodgeCount++;
+    reply.textContent=['EH NGGAK KENA 😝 Coba lagi, Sayanggg!','Hehehe kabuuur! 🎀','Yahh meleset lagi 🤭','Tombolnya juga belum mau ngalah nih 😭💗'][Math.min(dodgeCount-1,3)];
+  }
+  stillMadBtn.addEventListener('pointerdown',(event)=>{
+    event.preventDefault();
+    dodgeButton();
+  });
+  stillMadBtn.addEventListener('click',(event)=>{
+    event.preventDefault();
+    dodgeButton();
+  });
+  window.addEventListener('resize',()=>{
+    if(stillMadBtn.style.position==='fixed'){
+      const r=stillMadBtn.getBoundingClientRect();
+      stillMadBtn.style.left=Math.max(12,Math.min(r.left,window.innerWidth-r.width-12))+'px';
+      stillMadBtn.style.top=Math.max(12,Math.min(r.top,window.innerHeight-r.height-12))+'px';
+    }
+  });
+  document.getElementById('letterBtn').addEventListener('click',()=>modal.classList.add('show'));
+  document.getElementById('closeModal').addEventListener('click',()=>{modal.classList.remove('show');reply.textContent='Makasih udah baca surat kecil ini, '+name()+' 💌';hearts(15);});
+  modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('show');});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('show');});
+  </script>
+  </body>
+  </html>
