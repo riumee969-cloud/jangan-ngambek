@@ -1,0 +1,2 @@
+# jangan-ngambek
+buat kamu
